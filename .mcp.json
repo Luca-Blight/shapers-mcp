@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "shapers": {
+      "type": "http",
+      "url": "https://mcp.shapers.si/mcp"
+    }
+  }
+}
