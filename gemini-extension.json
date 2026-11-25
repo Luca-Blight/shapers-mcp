@@ -1,0 +1,21 @@
+{
+  "name": "shapers",
+  "version": "0.2.5",
+  "description": "Find engineers and scientists through public work with links to the evidence.",
+  "mcpServers": {
+    "shapers": {
+      "httpUrl": "https://mcp.shapers.si/mcp",
+      "headers": {
+        "X-API-Key": "${SHAPERS_API_KEY}"
+      }
+    }
+  },
+  "settings": [
+    {
+      "name": "Shapers API key",
+      "description": "Your private Shapers API key.",
+      "envVar": "SHAPERS_API_KEY",
+      "sensitive": true
+    }
+  ]
+}
